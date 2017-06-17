@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Zorex Rivera Salvo</title>
 
+
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -12,28 +13,70 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-  <div class="section no-pad-bot green darken-4" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center thin home-header">Zorex Salvo</h1>
-      <h6 class="header col s12 light home-header thin center">Web Developer</h6>
-      <div class="row center">
-        <h5 class="header col s12 light home-header thin">"Make it run, make it right, make it fast."</h5>
+  <div id="app">
+
+    <transition name="slide">
+      <div class="section no-pad-bot green darken-4" id="index-banner" v-if="!blog">
+        <div class="container">
+          <br><br>
+          <h1 class="header center thin home-header">Zorex Salvo</h1>
+          <h6 class="header col s12 light home-header thin center">Web Developer</h6>
+          <div class="row center">
+            <h5 class="header col s12 light home-header thin">"Make it run, make it right, make it fast."</h5>
+          </div>
+          <div class="row center" style="position: relative;">
+            <a class="btn-floating red tooltipped"
+               data-position="left"
+               data-delay="50"
+               data-tooltip="Blog"
+               @click="toggleBlog"
+               href="#blog">
+                <i class="material-icons">chrome_reader_mode</i>
+            </a>
+            <a class="btn-floating yellow darken-2 tooltipped"
+               data-position="top"
+               data-delay="50"
+               data-tooltip="GitHub"
+               href="https://github.com/zorexsalvo">
+              <i class="fa fa-github"></i>
+            </a>
+            <a class="btn-floating light-blue darken-4 tooltipped"
+               data-position="bottom" data-delay="50"
+               data-tooltip="Linkedn"
+               href="https://www.linkedin.com/in/zorex-salvo-67b486119/"
+               target="_top">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a class="btn-floating blue tooltipped"
+               data-position="right"
+               data-delay="50"
+               data-tooltip="Mail"
+               href="mailto:zorexsalvo@gmail.com">
+              <i class="material-icons">email</i>
+            </a>
+          </div>
+          <br><br>
+        </div>
       </div>
-      <div class="row center" style="position: relative;">
-        <a class="btn-floating red tooltipped" data-position="left" data-delay="50" data-tooltip="Blog"><i class="material-icons">chrome_reader_mode</i></a></li>
-        <a class="btn-floating yellow darken-2 tooltipped" data-position="top" data-delay="50" data-tooltip="GitHub"><i class="fa fa-github"></i></a></li>
-        <a class="btn-floating light-blue darken-4 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Linkedn"><i class="fa fa-linkedin"></i></a></li>
-        <a class="btn-floating blue tooltipped" data-position="right" data-delay="50" data-tooltip="Mail"><i class="material-icons">email</i></a></li>
-      </div>
-      <br><br>
+    </transition>
+
+    <transition name="fade">
+  <nav class="green darken-4" role="navigation" v-if="blog">
+    <div class="nav-wrapper container">
+      <a id="logo-container"
+         class="brand-logo thin"
+         @click="toggleBlog"
+         href="#">
+        Blog
+      </a>
     </div>
-  </div>
+  </nav>
+    </transition>
 
   <br>
   <div class="container">
     <div class="row">
-      <div class="col s6">
+      <div class="col s12 m6">
         <div class="card">
           <div class="card-image">
             <img src="img/screenshot.png">
@@ -50,11 +93,13 @@
       </div>
     </div>
   </div>
-
   <!--  Scripts-->
+  </div>
+
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+  <script src="https://unpkg.com/vue"></script>
+  <script src="js/app.js"></script>
   </body>
 </html>

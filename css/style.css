@@ -14,5 +14,20 @@
 }
 
 .home-header {
-    color: white;
+  color: white;
+}
+
+.fade-enter-active {
+  transition: .5s;
+  height: 64px;
+}
+.fade-enter {
+   height: 280px;
+}
+.slide-enter-active {
+  transition: 2s;
+  max-height: 1280px;
+}
+.slide-enter {
+  max-height: 70px;
 }
