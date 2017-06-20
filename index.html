@@ -5,3 +5,82 @@ full_name: Zorex Salvo
 position: Web Developer
 motto: Make it run, make it right, make it fast.
 ---
+<transition name="slide">
+<div class="section no-pad-bot green darken-4" id="index-banner" v-if="!blog">
+  <div class="container">
+    <br><br>
+    <h1 class="header center thin home-header">{{ page.full_name }}</h1>
+    <h6 class="header col s12 light home-header thin center">{{ page.position }}</h6>
+    <div class="row center">
+      <h5 class="header col s12 light home-header thin">"{{ page.motto }}"</h5>
+    </div>
+    <div class="row center" style="position: relative;">
+      <a class="btn-floating red tooltipped"
+         data-position="left"
+         data-delay="50"
+         data-tooltip="Blog"
+         @click="toggleBlog"
+         href="#blog">
+        <i class="material-icons">chrome_reader_mode</i>
+      </a>
+      <a class="btn-floating yellow darken-2 tooltipped"
+         data-position="top"
+         data-delay="50"
+         data-tooltip="GitHub"
+         href="https://github.com/{{ page.github_url }}">
+        <i class="fa fa-github"></i>
+      </a>
+      <a class="btn-floating light-blue darken-4 tooltipped"
+         data-position="bottom" data-delay="50"
+                                data-tooltip="Linkedn"
+                                href="https://www.linkedin.com/in/{{ page.linkedin_url }}"
+                                target="_top">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a class="btn-floating blue tooltipped"
+         data-position="right"
+         data-delay="50"
+         data-tooltip="Mail"
+         href="mailto:{{ page.email_address }}">
+        <i class="material-icons">email</i>
+      </a>
+    </div>
+    <br><br>
+  </div>
+</div>
+</transition>
+
+<transition name="fade">
+<nav class="green darken-4" role="navigation" v-if="blog">
+  <div class="nav-wrapper container">
+    <a id="logo-container"
+       class="brand-logo thin"
+       @click="toggleBlog"
+       href="#">
+      Blog
+    </a>
+  </div>
+</nav>
+</transition>
+
+<br>
+<div class="container">
+  <div class="row">
+    {% for post in site.posts %}
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ post.image_path }}">
+          <span class="card-title">{{ post.title }}</span>
+        </div>
+        <div class="card-content">
+          <p>{{ post.short_description }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ post.url }}">Read More..</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

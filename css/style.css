@@ -19,15 +19,21 @@
 
 .fade-enter-active {
   transition: .5s;
-  height: 64px;
+  height: 68px;
 }
 .fade-enter {
-   height: 280px;
+   height: 380px;
 }
 .slide-enter-active {
   transition: 2s;
   max-height: 1280px;
 }
 .slide-enter {
-  max-height: 70px;
+  max-height: 65px;
+}
+.parallax-container {
+  height: 400px;
+}
+.blog {
+  width: 60%;
 }
