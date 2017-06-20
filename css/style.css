@@ -34,13 +34,17 @@
   height: 400px;
 }
 .blog {
-width: 60%;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
 }
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+@media only screen and (min-width: 601px) {
+  .blog {
+    width: 80%;
+  }
 }
-main {
-    flex: 1 0 auto;
+@media only screen and (min-width: 993px) {
+  .blog {
+    width: 60%;
+  }
 }
