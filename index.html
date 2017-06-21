@@ -56,8 +56,8 @@ motto: Make it run, make it right, make it fast.
 <div class="container">
   <div class="row">
     {% assign published = site.posts | where: 'published', 'true' %}
+    <div class="col s12 cards-container">
     {% for post in published %}
-    <div class="col s12 m6">
       <div class="card">
         <div class="card-image">
           <img src="{{ post.image_path }}">
@@ -70,7 +70,7 @@ motto: Make it run, make it right, make it fast.
           <a href="{{ site.baseurl }}{{ post.url }}">Read More..</a>
         </div>
       </div>
-    </div>
     {% endfor %}
+    </div>
   </div>
 </div>
