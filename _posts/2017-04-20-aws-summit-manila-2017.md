@@ -3,6 +3,7 @@ layout: post
 image_path: http://www.confandweb.com/wp-content/uploads/2017/04/AWS-Summit-2017.png
 title: AWS Summit Manila 2017
 short_description: AWS Summit in Manila on 20th of April, 2017
+published: true
 ---
 AWS Summit Manila is just one leg of AWS Global Summit that promotes Amazon Web Services. Their goal is to educate both new and existing customers around the world to be more successful with AWS.
 

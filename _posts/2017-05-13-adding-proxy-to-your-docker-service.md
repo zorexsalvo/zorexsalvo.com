@@ -4,6 +4,7 @@ title: Adding Proxy to Your Docker Service
 image_path: https://www.docker.com/sites/default/files/social/docker-facebook-share.png
 short_description: This is only a personal note for my docker service configuration in office network proxy.
 tags: docker, networking, note
+published: true
 ---
 
 Have you ever experienced slow docker build even though your machine is on a network proxy?

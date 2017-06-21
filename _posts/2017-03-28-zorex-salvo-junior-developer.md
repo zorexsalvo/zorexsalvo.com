@@ -3,6 +3,7 @@ layout: post
 image_path: https://daveden.files.wordpress.com/2013/02/linux_cat.jpg
 title: Zorex Salvo, Junior Developer
 short_description: This was originally posted on [dev.to](https://dev.to/zorexsalvo/zorex-salvo-junior-developer) as my intro blog on dev.to community.
+published: true
 ---
 
 I'm from the Philippines.
