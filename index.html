@@ -15,32 +15,21 @@ motto: Make it run, make it right, make it fast.
       <h5 class="header col s12 light home-header thin">"{{ page.motto }}"</h5>
     </div>
     <div class="row center" style="position: relative;">
-      <a class="btn-floating red tooltipped"
-         data-position="left"
-         data-delay="50"
-         data-tooltip="Blog"
+      <a class="btn-floating red"
          @click="toggleBlog"
          href="#">
         <i class="material-icons">chrome_reader_mode</i>
       </a>
-      <a class="btn-floating yellow darken-2 tooltipped"
-         data-position="top"
-         data-delay="50"
-         data-tooltip="GitHub"
+      <a class="btn-floating yellow darken-2"
          href="https://github.com/{{ page.github_url }}">
         <i class="fa fa-github"></i>
       </a>
-      <a class="btn-floating light-blue darken-4 tooltipped"
-         data-position="bottom" data-delay="50"
-                                data-tooltip="Linkedn"
-                                href="https://www.linkedin.com/in/{{ page.linkedin_url }}"
-                                target="_top">
+      <a class="btn-floating light-blue darken-4"
+         href="https://www.linkedin.com/in/{{ page.linkedin_url }}"
+         target="_top">
         <i class="fa fa-linkedin"></i>
       </a>
-      <a class="btn-floating blue tooltipped"
-         data-position="right"
-         data-delay="50"
-         data-tooltip="Mail"
+      <a class="btn-floating blue"
          href="mailto:{{ page.email_address }}">
         <i class="material-icons">email</i>
       </a>
