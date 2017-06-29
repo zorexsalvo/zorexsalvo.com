@@ -129,3 +129,6 @@ code {
         column-count: 3;
     }
 }
+.outer-space {
+  background-color: #232741 !important;
+}
