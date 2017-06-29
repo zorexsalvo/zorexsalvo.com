@@ -15,7 +15,7 @@ motto: Make it run, make it right, make it fast.
     <h1 class="header center thin home-header">{{ page.full_name }}</h1>
     <h6 class="header col s12 light home-header thin center">{{ page.position }}</h6>
     <div class="row center">
-      <h5 class="header col s12 light home-header thin">"{{ page.motto }}"</h5>
+      <h5 class="header col s12 light home-header thin"><span class="typing"></span></h5>
     </div>
     <div class="row center" style="position: relative;">
       <a class="btn-floating red"
@@ -77,3 +77,12 @@ motto: Make it run, make it right, make it fast.
     </div>
   </div>
 </div>
+<script src="{{ site.baseurl }}/js/typed.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    Typed.new('.typing', {
+      strings: ['"{{ page.motto }}"'],
+      typeSpeed: 0
+    });
+  });
+</script>
