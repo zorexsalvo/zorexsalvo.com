@@ -140,6 +140,9 @@ code {
   width: 100%;
   max-width: none;
 }
+.motto {
+  margin-right: 0px !important;
+}
 canvas {
   height: 380px !important;
 }
