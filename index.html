@@ -19,8 +19,7 @@ motto: Make it run, make it right, make it fast.
     </div>
     <div class="row center" style="position: relative;">
       <a class="btn-floating red"
-         @click="toggleBlog"
-         href="#">
+         href="{{ site.baseurl }}/blogs">
         <i class="material-icons">chrome_reader_mode</i>
       </a>
       <a class="btn-floating yellow darken-2"
@@ -45,22 +44,42 @@ motto: Make it run, make it right, make it fast.
 <br>
 <div class="container">
   <div class="row">
-    {% assign published = site.posts | where: 'published', 'true' %}
-    <div class="col s12 cards-container">
-    {% for post in published %}
-      <div class="card">
+    <h3 class="thin">Recent Posts</h3>
+    <div class="col s12 m6">
+        {% assign top_post = site.posts | where: 'top', 'true' %}
+        {% for post in top_post %}
+        <div class="card">
+          <div class="card-image">
+            <img src="{{ post.image_path }}">
+          </div>
+          <div class="card-content">
+            <span class="card-title">{{ post.title }}</span>
+            <p>{{ post.short_description }}</p>
+          </div>
+          <div class="card-action">
+            <a href="{{ site.baseurl }}{{ post.url }}">Read More..</a>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="col s12 m6">
+      {% assign published = site.posts | where: 'published', 'true' %}
+      {% for post in published limit:3 %}
+      <div class="card horizontal">
         <div class="card-image">
           <img src="{{ post.image_path }}">
         </div>
-        <div class="card-content">
-          <span class="card-title">{{ post.title }}</span>
-          <p>{{ post.short_description }}</p>
-        </div>
-        <div class="card-action">
-          <a href="{{ site.baseurl }}{{ post.url }}">Read More..</a>
+        <div class="card-stacked">
+          <div class="card-content">
+            <h6 class="light">{{ post.date | date: "%B %d, %Y" }}</h6>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </div>
         </div>
       </div>
-    {% endfor %}
+      {% endfor %}
+      <div class="right">
+        <a href="{{ site.baseurl }}/blogs" class="waves-effect waves-light btn indigo accent-2">VIEW MORE</a>
+      </div>
     </div>
   </div>
 </div>
