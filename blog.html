@@ -1,0 +1,38 @@
+---
+layout: default
+title: Blog | Zorex Salvo
+permalink: blogs
+---
+<div class="navbar-fixed">
+<nav class="outer-space" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container"
+       class="brand-logo thin"
+       href="/">
+      Blog
+    </a>
+  </div>
+</nav>
+</div>
+
+<br>
+<div class="container">
+  <div class="row">
+    {% assign published = site.posts | where: 'published', 'true' %}
+    <div class="col s12 cards-container">
+    {% for post in published %}
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ post.image_path }}">
+        </div>
+        <div class="card-content">
+          <span class="card-title">{{ post.title }}</span>
+          <p>{{ post.short_description }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ site.baseurl }}{{ post.url }}">Read More..</a>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+
