@@ -43,8 +43,11 @@ motto: Make it run, make it right, make it fast.
 
 <br>
 <div class="container">
-  <div class="row">
-    <h3 class="thin">Recent Posts</h3>
+    <div class="row">
+    <div class="col s12">
+      <h3 class="thin">Recent Posts</h3>
+    </div>
+
     <div class="col s12 m6">
         {% assign top_post = site.posts | where: 'top', 'true' %}
         {% for post in top_post %}
