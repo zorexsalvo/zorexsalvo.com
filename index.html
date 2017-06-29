@@ -6,6 +6,8 @@ position: Web Developer
 github_url: zorexsalvo
 linkedin_url: zorex-salvo-67b486119
 email_address: zorexsalvo@gmail.com
+fb_username: zorexsalvo
+twitter_username: zorexsalvo
 motto: Make it run, make it right, make it fast.
 ---
 <transition name="slide">
@@ -34,8 +36,7 @@ motto: Make it run, make it right, make it fast.
       <a class="btn-floating blue"
          href="mailto:{{ page.email_address }}">
         <i class="material-icons">email</i>
-      </a>
-    </div>
+      </a> </div>
     <br><br>
   </div>
 </div>
@@ -81,10 +82,13 @@ motto: Make it run, make it right, make it fast.
       </div>
       {% endfor %}
       <div class="right">
-        <a href="{{ site.baseurl }}/blogs" class="waves-effect waves-light btn indigo accent-2">VIEW MORE</a>
+        <a href="{{ site.baseurl }}/blogs" class="waves-effect waves-light btn indigo accent-2">VIEW ALL</a>
       </div>
     </div>
   </div>
+
+  {% include footer.html %}
+
 </div>
 <script src="{{ site.baseurl }}/js/typed.js"></script>
 <script>
