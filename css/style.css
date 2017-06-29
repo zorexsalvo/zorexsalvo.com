@@ -132,3 +132,14 @@ code {
 .outer-space {
   background-color: #232741 !important;
 }
+#index-banner {
+  position: relative;
+}
+#index-banner .container {
+  position: absolute;
+  width: 100%;
+  max-width: none;
+}
+canvas {
+  height: 380px !important;
+}
