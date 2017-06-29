@@ -9,7 +9,7 @@ email_address: zorexsalvo@gmail.com
 motto: Make it run, make it right, make it fast.
 ---
 <transition name="slide">
-<div class="section no-pad-bot outer-space" id="index-banner" v-if="!blog">
+<div class="section no-pad-bot outer-space" id="index-banner">
   <div class="container">
     <br><br>
     <h1 class="header center thin home-header">{{ page.full_name }}</h1>
@@ -40,19 +40,6 @@ motto: Make it run, make it right, make it fast.
     <br><br>
   </div>
 </div>
-</transition>
-
-<transition name="fade">
-<nav class="outer-space" role="navigation" v-if="blog">
-  <div class="nav-wrapper container">
-    <a id="logo-container"
-       class="brand-logo thin"
-       @click="toggleBlog"
-       href="#">
-      Blog
-    </a>
-  </div>
-</nav>
 </transition>
 
 <br>
