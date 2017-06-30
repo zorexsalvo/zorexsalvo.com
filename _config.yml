@@ -1,4 +1,4 @@
-permalink: /blog/:title
+permalink: /:year/:title
 
 catchphrase: Make it run, make it right, make it fast.
 github_url: zorexsalvo
