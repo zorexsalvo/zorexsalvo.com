@@ -29,5 +29,14 @@
       console.log('callback - particles.js config loaded');
     });
   </script>
+  <script src="{{ site.baseurl }}/js/typed.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      Typed.new('.typing', {
+        strings: ['"{{ site.catchphrase }}"'],
+        typeSpeed: 0
+      });
+    });
+  </script>
   </body>
 </html>
