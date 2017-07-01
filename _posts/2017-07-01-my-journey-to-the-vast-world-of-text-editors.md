@@ -2,7 +2,7 @@
 layout: post
 image_path: img/text-editor-map.jpg
 title: My Journey to the Vast World of Text Editors
-short_description: My journey from using the humble notepad to a powerful ide to a simple but configurabel text editor.
+short_description: My journey from using the humble notepad to a powerful ide to a simple but highly configurable text editor.
 published: true
 ---
 Let’s start with the text editors that I used since the beginning of my programming journey.
@@ -48,7 +48,7 @@ again. Visual Studio showcased promising features again, like integrated termina
 
 I’m happily using VSCode until I developed a strain in my mouse hand. I searched for alternatives to
 minimize me holding the mouse then I discovered Vim. Pre-Vim I am not practicing correct typing which
-contributed to my straining, but learning Vim I had to practice home keys because the navigations, commands,
+contributed to my straining hand, but learning Vim I had to practice home keys because the navigations, commands,
 etc rely only on the keyboard only. H, j, k, l for up, down, left, right, i for insert, v for visual.
 Those commands are really hard to press if you don’t know how to place your fingers correctly on the keyboard.
 What I liked in Vim is it is very lightweight, it runs on terminal and it is highly configurable. You
