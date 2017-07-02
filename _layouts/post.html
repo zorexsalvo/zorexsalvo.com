@@ -19,7 +19,16 @@ layout: default
 </div>
 <div class="container blog flow-text">
   {{ content }}
+
+  {% if page.discussion %}
+  <div class="row center">
+    <div class="col s12">
+      <a class="waves-effect waves-light btn center" href="{{ page.discussion }}">View Discussion</a>
+    </div>
+  </div>
+  {% endif %}
 </div>
+
 <div class="container">
   {% include footer.html %}
 </div>
