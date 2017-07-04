@@ -1,6 +1,6 @@
 ---
 layout: post
-image_path: img/text-editor-map.jpg
+image_path: img/text-editor-map.min.jpg
 title: My Journey to the Vast World of Text Editors
 short_description: My journey from using the humble notepad to a powerful ide to a simple but highly configurable text editor.
 discussion: https://dev.to/zorexsalvo/my-journey-to-the-vast-world-of-text-editors/comments
