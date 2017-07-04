@@ -177,3 +177,4 @@ footer {
 footer a {
     color: #545454;
 }
+[v-cloak] { display:none; }
