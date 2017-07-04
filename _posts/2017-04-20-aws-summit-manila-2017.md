@@ -1,6 +1,6 @@
 ---
 layout: post
-image_path: http://www.confandweb.com/wp-content/uploads/2017/04/AWS-Summit-2017.png
+image_path: img/AWS-Summit-2017.png
 title: AWS Summit Manila 2017
 short_description: It is a one day summit that showcases all the cool products developed and offered by Amazon Web Services.
 top: true
