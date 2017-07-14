@@ -10,7 +10,7 @@ tags: [vue.js,]
 ### Once upon a time...
 
 I was really overwhelmed by the enormous world of javascript.
-I was taken aback the very moment I dipped my foot in that _ocean_.
+I was taken aback the very moment I dipped my foot in that _it_.
 
 
 Can you imagine? For almost two years, I am in-denial that I do
@@ -26,5 +26,14 @@ later on after finishing that project, I was asked to create a webtool
 for it, with dashboard, stats, etc. For a moment, I thought I can get
 away with it without writing any Javascript again. I thought Django
 template will be enough, I was wrong, I wasn't ready, but I have a task
-to finish. From that moment, I thought to myself, "You need to learn 
+to finish. From that moment, I thought to myself, "You need to learn
 javascript, you need it!".
+
+### But first...
+
+I did what some of you, did too. To search for the very best js framework
+like no one ever was. _[Search Google | top javascript 2017]_
+
+<div class="center">
+<img src="{{ site.baseurl }}/img/iwannabe.jpg" style="height: auto; max-width: 80%;" alt="I wanna be the very best">
+</div>
