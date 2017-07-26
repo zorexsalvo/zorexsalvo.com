@@ -183,3 +183,6 @@ footer a {
     color: #545454;
 }
 [v-cloak] { display:none; }
+h3 {
+    font-weight: 300;
+}
