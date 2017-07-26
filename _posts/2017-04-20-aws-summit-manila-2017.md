@@ -42,7 +42,7 @@ Not sure if AWS Summit Manila or AWS Food Summit hahaha. We never got hungry alt
 
 <img src="{{ site.baseurl }}/img/aws/lunch.jpg" width="100%" alt="Lunch">
 
-
+<br>
 ### Breakout Sessions
 
 AWS Summit had two tracks for their breakout sessions. There are Business Transformation and Cloud Innovation tracks that run simultaneously so we had to pick just one. We went to the Cloud Innovation track since that was the track that piqued our interest. So each track had these breakout sessions, the track started with Internet of Things with AWS which is a great start. In just the beginning, they have already showcased bits of the cool things their platform can offer. There were topics also for DevOps, Automation, Application Migration, Serverless Solutions, Big Data, that they solved using AWS. 
