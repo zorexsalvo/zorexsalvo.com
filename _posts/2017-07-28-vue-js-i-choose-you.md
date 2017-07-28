@@ -9,7 +9,7 @@ tags: [vuejs,]
 ### Some time ago...
 
 I was really overwhelmed by the enormous world of javascript.
-I was taken aback the very moment I dipped my foot in that _it_.
+I was taken aback the very moment I dipped my foot in _it_.
 
 
 Can you imagine? For almost two years, I am in-denial that I do
