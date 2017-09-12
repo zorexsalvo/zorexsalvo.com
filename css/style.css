@@ -200,7 +200,8 @@ h3 {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url(/img/preloader/loader.gif) center no-repeat #fff;
+    /*background-color: #e6ecf0 !important;*/
+    background: url(/img/preloader/loader-meta.gif) center no-repeat #fff;
 }
 .thin-border {
   border-top: 1px solid #ccc4c4;
