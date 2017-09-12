@@ -18,8 +18,7 @@ motto: Make it run, make it right, make it fast.
     <div class="row center motto">
       <h5 class="header col s12 light home-header thin"><span class="typing"></span></h5>
     </div>
-    <div class="row center motto">
-      <a class="btn-floating outer-space"
+    <div class="row center motto"> <a class="btn-floating outer-space"
          href="{{ site.baseurl }}/posts">
         <i class="material-icons">chrome_reader_mode</i>
       </a>
@@ -59,7 +58,7 @@ motto: Make it run, make it right, make it fast.
             <p>{{ post.short_description }}</p>
           </div>
           <div class="card-action">
-            <a class="action-link blue-text" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+            <a class="action-link blue-text darken-4" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
           </div>
         </div>
         {% endfor %}
@@ -74,7 +73,7 @@ motto: Make it run, make it right, make it fast.
         <div class="card-stacked">
           <div class="card-content">
             <h6 class="light">{{ post.date | date: "%B %-d, %Y" }}</h6>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <a style="color: #1c1818 !important;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </div>
         </div>
       </div>
