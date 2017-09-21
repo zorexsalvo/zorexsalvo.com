@@ -23,7 +23,7 @@ permalink: posts
     {% for post in published %}
       <div class="card">
         <div class="card-image">
-          <img src="{{ post.image_path }}">
+          <img class="b-lazy" src="{{ post.image_path }}">
         </div>
         <div class="card-content">
           <span class="card-title">{{ post.title }}</span>
