@@ -139,6 +139,7 @@ code {
 }
 #index-banner {
   position: relative;
+  height: 400px;
 }
 #index-banner .container {
   position: absolute;
