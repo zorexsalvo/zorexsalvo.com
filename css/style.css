@@ -182,6 +182,7 @@ footer {
 }
 footer a {
     color: black;
+    margin-right: 4px;
 }
 [v-cloak] { display:none; }
 h3 {
