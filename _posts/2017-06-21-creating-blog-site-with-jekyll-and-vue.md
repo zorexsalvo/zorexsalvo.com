@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How I Built This Blog?
-image_path: https://i.ytimg.com/vi/FKp7dutwkeY/maxresdefault.jpg
+image_path: img/jekyll.jpg
 short_description: This blog site is made out of materializecss, jekyll, a bit of vue.js
                    and it is hosted on GitHub via GitHub Pages.
 published: true
