@@ -4,6 +4,7 @@ title: Asynchronous Task with Celery and RabbitMQ
 image_path: img/RabbitMQ_and_Docker.jpg
 short_description: Personal note on how to implement asynchronous tasks on python with Celery and RabbitMQ
 published: true
+tags: [python, celery, rabbitmq, async]
 ---
 Slow API Responses? Browser Timeouts?
 

@@ -5,6 +5,7 @@ title: AWS Summit Manila 2017
 short_description: It is a one day summit that showcases all the cool products developed and offered by Amazon Web Services.
 top: true
 published: true
+tags: [aws, manila, summit]
 ---
 AWS Summit Manila is just one leg of AWS Global Summit that promotes Amazon Web Services. Their goal is to educate both new and existing customers around the world to be more successful with AWS.
 

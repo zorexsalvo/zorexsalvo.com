@@ -5,6 +5,7 @@ title: My Journey to the Vast World of Text Editors
 short_description: My journey from using the humble notepad to a powerful ide to a simple but highly configurable text editor.
 discussion: https://dev.to/zorexsalvo/my-journey-to-the-vast-world-of-text-editors/comments
 published: true
+tags: [text editors, vim, vscode, atom]
 ---
 Let’s start with the text editors that I used since the beginning of my programming journey.
 

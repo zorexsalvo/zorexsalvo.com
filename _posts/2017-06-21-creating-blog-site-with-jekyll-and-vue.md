@@ -5,6 +5,7 @@ image_path: img/jekyll.jpg
 short_description: This blog site is made out of materializecss, jekyll, a bit of vue.js
                    and it is hosted on GitHub via GitHub Pages.
 published: true
+tags: [jekyll, github pages, vue.js]
 ---
 Last week, I've been tinkering with VueJS, then I just thought what if I use Vue JS with
 materializecss. By the way, I'm not good with frontend, Vue.js is the first javascript
