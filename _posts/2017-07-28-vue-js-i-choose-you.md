@@ -4,6 +4,7 @@ image_path: img/vuejs.jpg
 title: Vue.js, I choose you!
 short_description: Story on why I chose Vue.js of all the many js frameworks out there.
 published: true
+discussion: https://dev.to/zorexsalvo/vuejs-i-choose-you/comments
 tags: [vuejs,]
 ---
 ### Some time ago...
