@@ -4,7 +4,7 @@ image_path: img/pet_project.jpg
 title: "Pet Projects: How to stay motivated doing it?"
 published: true
 discussion: https://dev.to/zorexsalvo/pet-projects-how-to-stay-motivated-doing-it-3pm/comments
-tags: [tags: discuss, pet, project, productivity]
+tags: [discuss, pet, project, productivity]
 ---
 Hi everyone, do you have new project ideas? Have you finished your previous one? I doubt it!
 
