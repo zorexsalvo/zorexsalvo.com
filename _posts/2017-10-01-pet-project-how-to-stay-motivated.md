@@ -3,6 +3,7 @@ layout: post
 image_path: img/pet_project.jpg
 title: "Pet Projects: How to stay motivated doing it?"
 published: true
+short_description: Discussion, advice, and project showcase.
 discussion: https://dev.to/zorexsalvo/pet-projects-how-to-stay-motivated-doing-it-3pm/comments
 tags: [discuss, pet, project, productivity]
 ---
