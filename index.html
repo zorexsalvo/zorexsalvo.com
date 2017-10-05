@@ -16,10 +16,8 @@ motto: Make it run, make it right, make it fast.
     <h1 class="header center thin home-header">{{ page.full_name }}</h1>
     <h6 class="header col s12 light home-header thin center">{{ page.position }}</h6>
     <div class="row center motto">
-      <h5 class="header col s12 light home-header thin"><span class="typing"></span></h5>
-    </div>
-    <div class="row center motto"> <a class="btn-floating outer-space"
-         href="{{ site.baseurl }}/posts">
+      <a class="btn-floating outer-space"
+          href="{{ site.baseurl }}/posts">
         <i class="material-icons">chrome_reader_mode</i>
       </a>
       <a class="btn-floating outer-space"
@@ -35,6 +33,9 @@ motto: Make it run, make it right, make it fast.
          href="mailto:{{ page.email_address }}">
         <i class="material-icons">email</i>
       </a> </div>
+      <div class="row center motto">
+        <div id="code-sponsor-widget"></div>
+      </div>
     <br><br>
   </div>
 </div>
@@ -126,5 +127,6 @@ motto: Make it run, make it right, make it fast.
 
 
   {% include footer.html %}
+  <script type="text/javascript" src="https://app.codesponsor.io/scripts/xSe5zI1xg-PGet3Ohegw1Q?theme=dark&image=hide"></script>
 
 </div>
