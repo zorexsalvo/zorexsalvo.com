@@ -13,5 +13,7 @@ So I have a question to "The Chosen Few" who actually finished their pet project
 
 Also, I am encouraging everyone who has a working in progress pet project to share theirs in the discussion box. And just maybe, if we knew that anyone may check our project, it may motivate us more to finish it.
 
-I'm fairly new to JS but mine is here: http://shop.zorexsalvo.xyz
-Source: https://github.com/zorexsalvo/vuecommerce
+I'm fairly new to JS but mine is here: [http://shop.zorexsalvo.xyz](http://shop.zorexsalvo.xyz)
+
+
+Source: [https://github.com/zorexsalvo/vuecommerce](https://github.com/zorexsalvo/vuecommerce)
