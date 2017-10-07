@@ -6,3 +6,6 @@ linkedin_url: zorex-salvo-67b486119
 email_address: zorexsalvo@gmail.com
 fb_username: zorexsalvo
 twitter_username: zorexsalvo
+
+sass:
+    style: compressed
