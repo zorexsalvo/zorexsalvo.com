@@ -11,3 +11,4 @@ Suggestions and Todos
 - "What I'm Doing?" should not end in a question mark, and is maybe more appropriately titled "About Me"
 - The footer should contain the same links as the header (blog, github, linkedin, email)
 - Link the clickable tags to the list of post.
+- Perhaps add more user interactivity to your website.
