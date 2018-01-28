@@ -20,13 +20,13 @@
           <div class="card-content">
             <div class="media">
               <div class="media-center">
-                <img src="https://daveden.files.wordpress.com/2013/02/linux_cat.jpg" class="author-image" alt="Placeholder image">
+                <img v-bind:src="post.cover_image" class="author-image" alt="Placeholder image">
               </div>
 
               <div class="media-content has-text-centered">
                   <p class="title article-title">{{ post.title }}</p>
                   <p class="subtitle is-6 article-subtitle">
-                  <a href="#">@zorexsalvo</a> on {{ formatDate(post.date_created) }}
+                  <a href="#">@{{ post.created_by }}</a> on {{ formatDate(post.date_created) }}
                   </p>
               </div>
             </div>
@@ -37,7 +37,7 @@
               </span>
             </div>
             <div class="content article-body is-centered">
-              <p class="has-text-centered">This was originally posted on [dev.to](https://dev.to/zorexsalvo/zorex-salvo-junior-developer) as my intro blog on dev.to community.</p>
+                <p class="has-text-centered">{{ post.short_description }}</p>
             </div>
 
           </div>
