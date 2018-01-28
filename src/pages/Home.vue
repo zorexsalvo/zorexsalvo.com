@@ -3,6 +3,17 @@
     <section class="articles">
       <div class="column is-8 is-offset-2">
 
+          <div class="field">
+              <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="email" placeholder="Search@zorexsalvo.com">
+                  <span class="icon is-left">
+                      <i class="fa fa-search"></i>
+                  </span>
+                  <span class="icon is-right">
+                      <i class="fa fa-check"></i>
+                  </span>
+              </div>
+          </div>
         <div class="card article">
 
           <div class="card-content">
@@ -27,7 +38,9 @@
             </div>
 
           </div>
-          <a class="button is-light is-fullwidth">Read More</a>
+          <a class="button is-light is-fullwidth">
+            Read More
+          </a>
         </div>
 
         <div class="card article">
