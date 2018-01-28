@@ -26,7 +26,7 @@
               <div class="media-content has-text-centered">
                   <p class="title article-title">{{ post.title }}</p>
                   <p class="subtitle is-6 article-subtitle">
-                  <a href="#">@zorexsalvo</a> on January 27, 2018
+                  <a href="#">@zorexsalvo</a> on {{ formatDate(post.date_created) }}
                   </p>
               </div>
             </div>
@@ -53,7 +53,14 @@
 </template>
 
 <script>
+import moment from 'moment';
+
 export default {
+  methods: {
+    formatDate(date) {
+      return moment(date).format('MMMM  DD, YYYY');
+    },
+  },
   computed: {
     posts() {
       return this.$store.getters.allPosts;
