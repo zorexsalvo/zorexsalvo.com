@@ -14,7 +14,8 @@
                   </span>
               </div>
           </div>
-        <div class="card article">
+        <div v-for="post in posts"
+             class="card article">
 
           <div class="card-content">
             <div class="media">
@@ -23,15 +24,17 @@
               </div>
 
               <div class="media-content has-text-centered">
-                  <p class="title article-title">Zorex Salvo, Junior Developer</p>
+                  <p class="title article-title">{{ post.title }}</p>
                   <p class="subtitle is-6 article-subtitle">
                   <a href="#">@zorexsalvo</a> on January 27, 2018
                   </p>
               </div>
             </div>
             <div class="has-text-centered">
-                <span class="tag is-link">introduction</span>
-                <span class="tag is-link">junior developer</span>
+              <span v-for="tag in post.tags"
+                    class="tag is-link">
+                {{ tag }}
+              </span>
             </div>
             <div class="content article-body is-centered">
               <p class="has-text-centered">This was originally posted on [dev.to](https://dev.to/zorexsalvo/zorex-salvo-junior-developer) as my intro blog on dev.to community.</p>
@@ -43,30 +46,21 @@
           </a>
         </div>
 
-        <div class="card article">
-          <div class="card-content">
-
-            <div class="media">
-              <div class="media-center">
-                <img src="https://pbs.twimg.com/profile_images/952116822488203264/etGNBvbE_400x400.jpg" class="author-image" alt="Placeholder image">
-              </div>
-
-              <div class="media-content has-text-centered">
-                  <p class="title article-title">Self-Hosted Git Server with Gogs</p>
-                  <p class="subtitle is-6 article-subtitle">
-                  <a href="#">@zorexsalvo</a> on January 27, 2018
-                  </p>
-              </div>
-            </div>
-
-            <div class="content article-body is-centered">
-              <p class="has-text-centered">My introduction entry on dev.to.</p>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
 
   </div>
 </template>
+
+<script>
+export default {
+  computed: {
+    posts() {
+      return this.$store.getters.allPosts;
+    },
+  },
+  created() {
+    this.$store.dispatch('getPosts');
+  },
+};
+</script>

@@ -57,3 +57,6 @@ div.column.is-8:first-child {
 .promo-block .container {
     margin: 1rem 5rem;
 }
+.tag {
+  margin-left: 3px;
+}
