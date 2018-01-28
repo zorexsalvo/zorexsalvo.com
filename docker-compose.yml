@@ -1,6 +1,0 @@
-web:
-    build: .
-    volumes:
-        - .:/opt/
-    ports:
-        - 4000:4000
