@@ -1,6 +1,7 @@
 <template>
-  <div id="app" class="container">
-    <nav class="navbar is-white">
+  <div id="app">
+    <nav class="navbar is-light">
+        <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item brand-text" href="../">
           root@zorexsalvo~ $
@@ -15,25 +16,42 @@
           <a class="navbar-item" href="#">
             Archives
           </a>
+          <div class="navbar-item">
+            <div class="field">
+                <p class="control has-icons-left">
+                <input class="input" placeholder="search@zorexsalvo.com">
+                <span class="icon is-small is-left">
+                    <i class="fa fa-search"></i>
+                </span>
+                </p>
+            </div>
+          </div>
+
         </div>
 
         <div class="navbar-end">
-          <span class="icon is-large">
-            <i class="fa fa-github fa-lg">
-              <a href="https://github.com/zorexsalvo"></a>
-            </i>
-          </span>
-          <span class="icon is-large">
-            <i class="fa fa-twitter fa-lg"></i>
-          </span>
-          <span class="icon is-large">
-            <i class="fa fa-linkedin fa-lg"></i>
-          </span>
-          <span class="icon is-large">
-            <i class="fa fa-envelope fa-lg"></i>
-          </span>
-
+          <a class="navbar-item" href="https://github.com/zorexsalvo" target="_blank">
+            <span class="icon">
+              <i class="fa fa-github fa-lg"></i>
+            </span>
+          </a>
+          <a class="navbar-item" href="https://twitter.com/zorexsalvo" target="_blank">
+            <span class="icon">
+              <i class="fa fa-twitter fa-lg"></i>
+            </span>
+          </a>
+          <a class="navbar-item" href="https://www.linkedin.com/in/zorexsalvo" target="_blank">
+            <span class="icon">
+              <i class="fa fa-linkedin fa-lg"></i>
+            </span>
+          </a>
+          <a class="navbar-item" href="">
+            <span class="icon is-large">
+              <i class="fa fa-envelope fa-lg"></i>
+            </span>
+          </a>
         </div>
+</div>
       </div>
     </nav>
 
