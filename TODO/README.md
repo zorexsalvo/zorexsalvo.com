@@ -15,3 +15,5 @@ Suggestions and Todos
 - Perhaps add more user interactivity to your website.
 - When you say "so I do more backend stuffs" the "stuffs" there is wrong and comes out as less professional. So instead you could say "more backend work"
 - I have attached a screenshot for both cases in the folder.
+-Change "experimenting new technologies" to "experimenting with new technologies"
+-Change Rollbar text to fit on one line
