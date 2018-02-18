@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
           <p class="navbar-item">
@@ -8,6 +8,11 @@
                  alt="Zorex Salvo, developer."
                  style="margin-right: 50px">
           </p>
+          <div class="navbar-burger" v-bind:class="{ 'is-active': showNav}" @click="toggleNav">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
         </div>
         <div id="navMenu" class="navbar-menu">
           <div class="navbar-start">
@@ -107,6 +112,16 @@
 <script>
 export default {
   name: 'App',
+  data() {
+    return {
+      showNav: false,
+    };
+  },
+  methods: {
+    toggleNav() {
+      this.showNav = !this.showNav;
+    },
+  },
 };
 </script>
 
