@@ -8,13 +8,13 @@
                  alt="Zorex Salvo, developer."
                  style="margin-right: 50px">
           </p>
-          <div class="navbar-burger" v-bind:class="{ 'is-active': showNav}" @click="toggleNav">
+          <div class="navbar-burger" :class="{ 'is-active': showNav}" @click="toggleNav">
               <span></span>
               <span></span>
               <span></span>
           </div>
         </div>
-        <div id="navMenu" class="navbar-menu">
+        <div class="navbar-menu" :class="{ 'is-active': showNav }">
           <div class="navbar-start">
             <router-link to="/"
                          class="navbar-item">
@@ -67,7 +67,7 @@
               </span>
             </a>
             <a class="navbar-item" href="">
-              <span class="icon is-large">
+              <span class="icon">
                 <i class="fa fa-envelope fa-lg"></i>
               </span>
             </a>
