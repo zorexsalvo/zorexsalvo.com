@@ -1,23 +1,11 @@
 <template>
   <div>
 
-    <section class="articles container">
+    <section class="articles">
       <div class="columns">
 
-        <div class="column is-3">
-          <aside class="menu tag-panel">
-            <p class="menu-label">
-            Tags
-            </p>
-            <ul class="menu-list">
-              <li>
-                <ul>
-                  <li><a>introduction</a></li>
-                  <li><a>vue.js</a></li>
-                  <li><a>junior developer</a></li>
-                </ul>
-              </li>
-            </ul>
+        <div class="column is-2 is-offset-1">
+          <aside class="menu tag-panel is-hidden-mobile">
             <p class="menu-label">
             Published
             </p>
@@ -26,6 +14,17 @@
                 <ul>
                   <li><a>2018</a></li>
                   <li><a>2017</a></li>
+                </ul>
+              </li>
+            </ul>
+            Tags
+            </p>
+            <ul class="menu-list">
+              <li>
+                <ul>
+                  <li><a>introduction</a></li>
+                  <li><a>vue.js</a></li>
+                  <li><a>junior developer</a></li>
                 </ul>
               </li>
             </ul>
@@ -38,7 +37,7 @@
           <div v-for="post in posts"
                class="card article">
 
-            <div class="card-content">
+            <div class="card-content card-bg">
               <div class="media">
                 <div class="media-center">
                   <img v-bind:src="post.cover_image" class="author-image" alt="Placeholder image">

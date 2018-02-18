@@ -1,18 +1,25 @@
 <template>
   <div id="app">
-    <nav class="navbar is-light">
+    <nav class="navbar">
         <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item brand-text" href="../">
-          root@zorexsalvo~ $
+        <a class="navbar-item">
+          <img src="/static/logo.png"
+               alt="Zorex Salvo, developer."
+               style="margin-right: 50px">
         </a>
       </div>
 
       <div id="navMenu" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="#">
-            Home
-          </a>
+          <router-link to="/"
+                       class="navbar-item">
+            About
+          </router-link>
+          <router-link to="blog"
+                       class="navbar-item">
+            Blog
+          </router-link>
           <a class="navbar-item" href="#">
             Archives
           </a>
@@ -55,7 +62,7 @@
       </div>
     </nav>
 
-    <router-view/>
+    <router-view class="container"/>
   </div>
 </template>
 
