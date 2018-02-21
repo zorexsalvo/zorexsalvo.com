@@ -20,6 +20,49 @@
         </p>
       </div>
     </div>
+    <hr style="margin-bottom:0">
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Recent Posts</h1>
+        <div class="columns is-gapless">
+          <div class="column">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title is-size-4">Self-Hosted Git Server with Gogs</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title is-size-4">Pet Projects: How to stay motivated doing it?</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title is-size-4">Vue.js, I choose you!</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
   </div>
 </template>
 
@@ -28,5 +71,8 @@
   .intro {
     margin-top: 3rem;
   }
+}
+article.tile {
+  background-color: #F0F2F4;
 }
 </style>
