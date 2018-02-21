@@ -24,7 +24,9 @@
 </template>
 
 <style scoped>
+@media only screen and (min-width: 1200px) {
   .intro {
     margin-top: 3rem;
   }
+}
 </style>
