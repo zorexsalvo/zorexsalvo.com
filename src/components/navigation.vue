@@ -82,6 +82,6 @@ export default {
 
 <style scoped>
   nav {
-    margin-bottom: 10px;
+    margin-bottom: 1.5rem;
   }
 </style>
