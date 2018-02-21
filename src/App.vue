@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <navigation></navigation>
-    <br><br><br>
     <router-view class="container"/>
-    <br>
     <footer class="footer">
       <div class="container">
         <div class="content has-text-centered">
