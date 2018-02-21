@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
           <p class="navbar-item">
@@ -8,7 +8,7 @@
                  alt="Zorex Salvo, developer."
                  style="margin-right: 50px">
           </p>
-          <div class="navbar-burger" :class="{ 'is-active': showNav}" @click="toggleNav">
+          <div class="navbar-burger" :class="{ 'is-active': showNav }" @click="toggleNav">
               <span></span>
               <span></span>
               <span></span>
@@ -75,6 +75,7 @@
         </div>
       </div>
     </nav>
+    <br><br><br>
     <router-view class="container"/>
     <br>
     <br>
