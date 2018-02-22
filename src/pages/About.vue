@@ -7,7 +7,7 @@
     <div class="columns">
       <div class="column">
         <figure class="image is-3by2">
-            <img src="https://bulma.io/images/placeholders/480x320.png">
+            <img src="https://bulma.io/images/placeholders/640x480.png">
         </figure>
       </div>
       <div class="column">
@@ -30,7 +30,7 @@
             <article class="tile is-child notification">
               <p class="title is-size-4">Self-Hosted Git Server with Gogs</p>
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/640x480.png">
+                <img src="https://bulma.io/images/placeholders/480x320.png">
               </figure>
             </article>
           </div>
@@ -39,7 +39,7 @@
             <article class="tile is-child notification">
               <p class="title is-size-4">Pet Projects: How to stay motivated doing it?</p>
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/640x480.png">
+                <img src="https://bulma.io/images/placeholders/480x320.png">
               </figure>
             </article>
           </div>
@@ -48,7 +48,7 @@
             <article class="tile is-child notification">
               <p class="title is-size-4">Vue.js, I choose you!</p>
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/640x480.png">
+                <img src="https://bulma.io/images/placeholders/480x320.png">
               </figure>
             </article>
           </div>
