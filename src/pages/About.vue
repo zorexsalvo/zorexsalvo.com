@@ -12,11 +12,11 @@
       </div>
       <div class="column">
         <p class="is-size-4 intro">
-        I code in Python/Django/Flask and lately I've been doing javascript also. I'm not a design-
-        guy so I'm usually assigned to do backend stuffs.<br/><br/>I'm in continuous loop of learni
-        ng and experimenting new technologies ergo my ever-presence on many tech conferences, hacka
-        thons, and codecamps.<br/><br/>I do blogs too. I write about tech, hackathon, experiences,
-        events, anything random that comes to mind.<br/><br/>
+        I code in Python/Django/Flask and lately I've been doing javascript also. I'm not a
+        design-guy so I'm usually assigned to do backend stuffs.<br/><br/>I'm in continuous
+        loop of learning and experimenting new technologies ergo my ever-presence on many tech
+        conferences, hackathons, and codecamps.<br/><br/>I do blogs too. I write about tech,
+        hackathon, experiences, events, anything random that comes to mind.<br/><br/>
         </p>
       </div>
     </div>
@@ -27,7 +27,6 @@
         <h1 class="title">Recent Posts</h1>
         <div class="columns is-gapless post">
           <div class="column">
-            <br>
             <article class="tile is-child notification">
               <p class="title is-size-4">Self-Hosted Git Server with Gogs</p>
               <figure class="image is-4by3">
@@ -46,7 +45,6 @@
           </div>
 
           <div class="column">
-            <br>
             <article class="tile is-child notification">
               <p class="title is-size-4">Vue.js, I choose you!</p>
               <figure class="image is-4by3">
@@ -70,5 +68,8 @@
 }
 article.tile {
   background-color: #F0F2F4;
+}
+p.title {
+  height: 40px;
 }
 </style>
