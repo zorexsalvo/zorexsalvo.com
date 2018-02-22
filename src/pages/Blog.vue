@@ -2,66 +2,20 @@
   <div>
     <br>
     <div class="timeline is-centered">
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">January 27, 2018</p>
-          <p>Self-Hosted Git Server with Gogs</p>
-        </div>
-      </div>
-      <header class="timeline-header">
-        <span class="tag is-info is-medium">2017</span>
-      </header>
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">October 1, 2017</p>
-          <p>Pet Projects: How to stay motivated doing it?</p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">July 28, 2017</p>
-          <p>Vue.js, I choose you!</p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">June 21, 2017</p>
-          <p>How I Build This Blog?</p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">June 17, 2017</p>
-          <p>Asynchronous Task with Celery and RabbitMQ</p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">May 13, 2017</p>
-          <p>Adding Proxy to Your Docker Service</p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">April 20, 2017</p>
-          <p>AWS Summit Manila 2017</p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <p class="heading">March 28, 2017</p>
-          <p>Zorex Salvo, Junior Developer</p>
-        </div>
-      </div>
+      <template v-for="post in posts">
+        {{ setYearHeader(post.date_created) }}
+        <header class="timeline-header" v-if="display_current_year" :key="post.id">
+          <span class="tag is-info is-medium">{{ current_year }}</span>
+        </header>
 
+        <div class="timeline-item" :key="post.slug">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="heading">{{ formatDate(post.date_created) }}</p>
+            <p>{{ post.title }}</p>
+          </div>
+        </div>
+      </template>
     </div>
 
   </div>
@@ -75,10 +29,19 @@ export default {
     formatDate(date) {
       return moment(date).format('MMMM  DD, YYYY');
     },
+    setYearHeader(date) {
+      this.$store.dispatch('setYearHeader', moment(date).year());
+    },
   },
   computed: {
     posts() {
       return this.$store.getters.allPosts;
+    },
+    display_current_year() {
+      return this.$store.getters.getDisplayCurrentYear;
+    },
+    current_year() {
+      return this.$store.getters.getCurrentYear;
     },
   },
   created() {
