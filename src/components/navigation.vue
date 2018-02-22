@@ -18,8 +18,8 @@
       <div class="navbar-menu" :class="{ 'is-active': showNav }">
         <div class="navbar-start">
           <router-link to="/"
-                       class="navbar-item">
-            About
+                       class="navbar-item is-active">
+            Home
           </router-link>
           <router-link to="blog"
                        class="navbar-item">
