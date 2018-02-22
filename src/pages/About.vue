@@ -11,7 +11,7 @@
         </figure>
       </div>
       <div class="column">
-        <p class="is-size-4 intro">
+        <p class="is-size-5 intro">
         I code in Python/Django/Flask and lately I've been doing javascript also. I'm not a
         design-guy so I'm usually assigned to do backend stuffs.<br/><br/>I'm in continuous
         loop of learning and experimenting new technologies ergo my ever-presence on many tech
@@ -28,7 +28,7 @@
         <div class="columns is-gapless post">
           <div class="column">
             <article class="tile is-child notification">
-              <p class="title is-size-4">Self-Hosted Git Server with Gogs</p>
+              <p class="title is-size-5">Self-Hosted Git Server with Gogs</p>
               <figure class="image is-4by3">
                 <img src="https://bulma.io/images/placeholders/480x320.png">
               </figure>
@@ -37,7 +37,7 @@
 
           <div class="column">
             <article class="tile is-child notification">
-              <p class="title is-size-4">Pet Projects: How to stay motivated doing it?</p>
+              <p class="title is-size-5">Pet Projects: How to stay motivated doing it?</p>
               <figure class="image is-4by3">
                 <img src="https://bulma.io/images/placeholders/480x320.png">
               </figure>
@@ -46,7 +46,7 @@
 
           <div class="column">
             <article class="tile is-child notification">
-              <p class="title is-size-4">Vue.js, I choose you!</p>
+              <p class="title is-size-5">Vue.js, I choose you!</p>
               <figure class="image is-4by3">
                 <img src="https://bulma.io/images/placeholders/480x320.png">
               </figure>
@@ -63,7 +63,7 @@
 <style scoped>
 @media only screen and (min-width: 1200px) {
   .intro {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 }
 article.tile {
