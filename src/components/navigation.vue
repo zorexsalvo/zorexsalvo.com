@@ -25,7 +25,7 @@
                        class="navbar-item">
             Blog
           </router-link>
-          <router-link to="/"
+          <router-link to="extras"
                        class="navbar-item">
             Extras
           </router-link>
@@ -42,13 +42,6 @@
              target="_blank">
             <span class="icon">
               <i class="fa fa-github fa-lg"></i>
-            </span>
-          </a>
-          <a class="navbar-item"
-             href="https://twitter.com/zorexsalvo"
-             target="_blank">
-            <span class="icon">
-              <i class="fa fa-twitter fa-lg"></i>
             </span>
           </a>
           <a class="navbar-item"
