@@ -10,7 +10,7 @@
         </div>
       </div>
       <header class="timeline-header">
-        <span class="tag is-primary">2017</span>
+        <span class="tag is-info is-medium">2017</span>
       </header>
       <div class="timeline-item">
         <div class="timeline-marker"></div>
