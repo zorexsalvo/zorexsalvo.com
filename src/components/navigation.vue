@@ -5,8 +5,7 @@
       <div class="navbar-brand">
         <p class="navbar-item">
         <img src="/static/logo.png"
-             alt="Zorex Salvo, developer."
-             style="margin-right: 50px">
+             alt="Zorex Salvo, developer.">
         </p>
         <div class="navbar-burger" :class="{ 'is-active': showNav }" @click="showNav = !showNav ">
           <span></span>
@@ -18,7 +17,7 @@
       <div class="navbar-menu" :class="{ 'is-active': showNav }">
         <div class="navbar-start">
           <router-link to="/"
-                       class="navbar-item is-active">
+                       class="navbar-item">
             Home
           </router-link>
           <router-link to="blog"
@@ -76,5 +75,8 @@ export default {
 <style scoped>
   nav {
     margin-bottom: 1.5rem;
+  }
+  p.navbar-item {
+    margin-right: 5px;
   }
 </style>
