@@ -24,11 +24,13 @@
 
     <section class="section">
       <div class="container">
-        <h1 class="title">Recent Posts</h1>
+        <h1 class="title has-text-centered has-text-left-desktop">Recent Posts</h1>
         <div class="columns is-gapless post">
           <div class="column">
             <article class="tile is-child notification">
-              <p class="title is-size-5">Self-Hosted Git Server with Gogs</p>
+              <p class="title is-size-5 has-text-centered has-text-left-tablet">
+                Self-Hosted Git Server with Gogs
+              </p>
               <figure class="image is-4by3">
                 <img src="https://bulma.io/images/placeholders/480x320.png">
               </figure>
@@ -37,7 +39,9 @@
 
           <div class="column">
             <article class="tile is-child notification">
-              <p class="title is-size-5">Pet Projects: How to stay motivated doing it?</p>
+              <p class="title is-size-5 has-text-centered has-text-left-tablet">
+                Pet Projects: How to stay motivated doing it?
+              </p>
               <figure class="image is-4by3">
                 <img src="https://bulma.io/images/placeholders/480x320.png">
               </figure>
@@ -46,7 +50,9 @@
 
           <div class="column">
             <article class="tile is-child notification">
-              <p class="title is-size-5">Vue.js, I choose you!</p>
+              <p class="title is-size-5 has-text-centered has-text-left-tablet">
+                Vue.js, I choose you!
+              </p>
               <figure class="image is-4by3">
                 <img src="https://bulma.io/images/placeholders/480x320.png">
               </figure>
