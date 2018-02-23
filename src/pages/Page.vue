@@ -23,8 +23,8 @@
   div.content {
     margin-top: -10px;
     margin-bottom: -10px;
-    padding: 50px 20px 100px 100px;
-    background-color: floralwhite;
+    padding: 50px 20px 250px 100px;
+    background-color: white;
     font-size: 18px;
     border-radius: 10px;
   }
