@@ -31,7 +31,7 @@
                :key="post.id">
             <article class="tile is-child notification">
               <p class="title is-size-5 has-text-centered has-text-left-tablet">
-              {{ post.title }}
+                <router-link class="router-title" to="page">{{ post.title }}</router-link>
               </p>
               <figure class="image is-4by3">
                 <img src="https://bulma.io/images/placeholders/480x320.png">
@@ -71,5 +71,8 @@ article.tile {
 }
 p.title {
   height: 40px;
+}
+.router-title {
+  text-decoration: none !important;
 }
 </style>
