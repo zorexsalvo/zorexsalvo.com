@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://api.zorexsalvo.com/v1';
+const API_BASE = 'https://api.zorexsalvo.com/v1';
 
 
 export default {
