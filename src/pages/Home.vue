@@ -73,12 +73,15 @@ article.tile {
   background-color: #F0F2F4;
 }
 p.title {
-  height: 40px;
+  height: 30px;
 }
 .router-title {
   text-decoration: none !important;
 }
 .cover {
   object-fit: cover;
+}
+article {
+  padding: 1.25rem .5rem 1.25rem .5rem;
 }
 </style>
