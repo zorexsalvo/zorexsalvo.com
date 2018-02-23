@@ -2,7 +2,9 @@
   <div class="content">
     <h1 class="title is-size-4"><strong>{{ post.title }}</strong></h1>
     <h2 class="subtitle is-size-5">{{ formatDate(post.date_created) }}</h2>
-    <img :src="post.cover_image">
+    <img class="cover-image" :src="post.cover_image">
+    <br><br>
+    <div class="post" v-html="post.content"></div>
 
   </div>
 </template>
@@ -36,7 +38,7 @@ export default {
     font-size: 18px;
     border-radius: 10px;
   }
-  img {
+  .cover-image {
     text-align: center;
     margin-left: -40px;
     width: 900px;
@@ -51,5 +53,8 @@ export default {
     margin-bottom: 5px;
     text-transform: uppercase;
     margin-bottom: 20px;
+  }
+  .post {
+    margin-right: 90px;
   }
 </style>
