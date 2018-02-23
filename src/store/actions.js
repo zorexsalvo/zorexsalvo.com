@@ -11,7 +11,4 @@ export default {
       },
     );
   },
-  setYearHeader: ({ commit }, payload) => {
-    commit('setYearHeader', payload);
-  },
 };

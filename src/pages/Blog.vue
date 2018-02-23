@@ -2,10 +2,12 @@
   <div>
     <br>
     <div class="timeline is-centered">
-      <template v-for="post in posts">
-        {{ setYearHeader(post.date_created) }}
-        <header class="timeline-header" v-if="display_current_year" :key="post.id">
-          <span class="tag is-info is-medium">{{ current_year }}</span>
+      <template v-for="(post, index) in posts">
+        <header class="timeline-header"
+                v-if="(index > 0 && getYear(posts[index].date_created) !=
+                       getYear(posts[index-1].date_created))"
+                :key="post.id">
+            <span class="tag is-info is-medium">{{ getYear(post.date_created) }}</span>
         </header>
 
         <div class="timeline-item" :key="post.slug">
@@ -29,19 +31,13 @@ export default {
     formatDate(date) {
       return moment(date).format('MMMM  DD, YYYY');
     },
-    setYearHeader(date) {
-      this.$store.dispatch('setYearHeader', moment(date).year());
+    getYear(date) {
+      return moment(date).year();
     },
   },
   computed: {
     posts() {
       return this.$store.getters.allPosts;
-    },
-    display_current_year() {
-      return this.$store.getters.getDisplayCurrentYear;
-    },
-    current_year() {
-      return this.$store.getters.getCurrentYear;
     },
   },
   created() {
