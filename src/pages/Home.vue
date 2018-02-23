@@ -7,7 +7,7 @@
     <div class="columns">
       <div class="column">
         <figure class="image is-3by2">
-            <img src="https://bulma.io/images/placeholders/640x480.png">
+            <img src="https://zorexsalvo.com/assets/images/devto">
         </figure>
       </div>
       <div class="column">
@@ -37,7 +37,7 @@
               </router-link>
               </p>
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/480x320.png">
+                <img class="cover" :src="post.cover_image">
               </figure>
             </article>
           </div>
@@ -77,5 +77,8 @@ p.title {
 }
 .router-title {
   text-decoration: none !important;
+}
+.cover {
+  object-fit: cover;
 }
 </style>
