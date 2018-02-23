@@ -20,7 +20,7 @@
                        class="navbar-item">
             Home
           </router-link>
-          <router-link to="blog"
+          <router-link :to="{ name: 'Blog' }"
                        class="navbar-item">
             Blog
           </router-link>

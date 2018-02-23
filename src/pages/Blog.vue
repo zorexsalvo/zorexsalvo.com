@@ -14,7 +14,9 @@
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <p class="heading">{{ formatDate(post.date_created) }}</p>
-            <router-link to="page">{{ post.title }}</router-link>
+            <router-link :to="{ name: 'Page', params: { slug: post.slug } }">
+                {{ post.title }}
+            </router-link>
           </div>
         </div>
       </template>

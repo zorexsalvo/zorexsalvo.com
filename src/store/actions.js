@@ -11,4 +11,11 @@ export default {
       },
     );
   },
+  getPost: ({ commit }, payload) => {
+    axios.get(`${API_BASE}/posts/${payload}/`).then(
+      (response) => {
+        commit('getPost', response.data);
+      },
+    );
+  },
 };

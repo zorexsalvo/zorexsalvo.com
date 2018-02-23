@@ -19,7 +19,7 @@ export default new Router({
       component: Blog,
     },
     {
-      path: '/page',
+      path: '/blog/:slug',
       name: 'Page',
       component: Page,
     },

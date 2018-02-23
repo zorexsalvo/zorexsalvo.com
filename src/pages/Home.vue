@@ -31,7 +31,10 @@
                :key="post.id">
             <article class="tile is-child notification">
               <p class="title is-size-5 has-text-centered has-text-left-tablet">
-                <router-link class="router-title" to="page">{{ post.title }}</router-link>
+              <router-link class="router-title"
+                           :to="{ name: 'Page', params: { slug: post.slug }}">
+                {{ post.title }}
+              </router-link>
               </p>
               <figure class="image is-4by3">
                 <img src="https://bulma.io/images/placeholders/480x320.png">
