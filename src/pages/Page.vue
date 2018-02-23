@@ -42,6 +42,6 @@
     letter-spacing: 1px;
     margin-bottom: 5px;
     text-transform: uppercase;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
   }
 </style>
