@@ -4,7 +4,7 @@
     <div class="columns">
       <div class="column">
         <figure class="image is-3by2">
-            <img src="https://zorexsalvo.com/assets/images/devto">
+            <img src="https://api.zorexsalvo.com/media/uploads/devto.jpg">
         </figure>
       </div>
       <div class="column">
