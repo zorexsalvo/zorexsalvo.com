@@ -1,6 +1,8 @@
-web:
+version: '3'
+services:
+  web:
     build: .
     volumes:
-        - .:/opt/
+      - .:/opt/
     ports:
-        - 4000:4000
+      - 8080:8080

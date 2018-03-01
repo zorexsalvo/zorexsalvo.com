@@ -1,8 +1,21 @@
-zorexsalvo.com
----
-This site is created with MaterializeCSS and Jekyll. I've been wanting to offer it as a free jekyll template for those who want to create their own blog site but it isn't good enough.
+# zorexsalvo
 
+> A Vue.js project
 
-If you want to contribute, just create a pull request:
- - you can also add comments on the TODO folder; and
- - you can upload screenshots for enhancements also in that folder
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
