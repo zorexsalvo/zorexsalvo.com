@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div class="notification is-info has-text-centered">
-      Site is under construction. Please visit
-      <a href="https://zorexsalvo.com">zorexsalvo.com.</a>
-    </div>
+    <br>
     <div class="columns">
       <div class="column">
         <figure class="image is-3by2">
