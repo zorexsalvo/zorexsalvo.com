@@ -22,16 +22,11 @@
           </router-link>
           <router-link :to="{ name: 'Blog' }"
                        class="navbar-item">
-            Blog
+            Archive
           </router-link>
           <router-link to="extras"
                        class="navbar-item">
             Extras
-          </router-link>
-
-          <router-link to="archive"
-                       class="navbar-item">
-            Archive
           </router-link>
         </div>
 
