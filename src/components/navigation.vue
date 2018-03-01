@@ -55,6 +55,10 @@
               <i class="fa fa-envelope fa-lg"></i>
             </span>
           </a>
+          <a href="https://dev.to/zorexsalvo" class="navbar-item">
+            <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+                 alt="Zorex Salvo's DEV Profile" height="10" />
+          </a>
         </div>
       </div>
 
