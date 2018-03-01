@@ -24,4 +24,7 @@ export default new Router({
       component: Page,
     },
   ],
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
 });
