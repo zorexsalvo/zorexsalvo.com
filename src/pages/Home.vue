@@ -7,7 +7,7 @@
             <img src="https://api.zorexsalvo.com/media/uploads/devto.jpg">
         </figure>
       </div>
-      <div class="column">
+      <div class="column summary">
         <p class="is-size-5 intro">
         I code in Python/Django/Flask and lately I've been doing javascript also. I'm not a
         design-guy so I'm usually assigned to do backend stuffs.<br/><br/>I'm in continuous
@@ -80,5 +80,10 @@ p.title {
 }
 article {
   padding: 1.25rem .5rem 1.25rem .5rem;
+}
+@media only screen and (max-width: 1000px) {
+  .summary {
+    margin-left: 8px;
+  }
 }
 </style>
