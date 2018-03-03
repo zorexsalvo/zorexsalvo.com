@@ -15,7 +15,7 @@
       </div>
 
       <div class="navbar-menu" :class="{ 'is-active': showNav }">
-        <div class="navbar-start">
+        <div class="navbar-start" @click="showNav = false">
           <router-link to="/"
                        class="navbar-item">
             Home
