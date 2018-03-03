@@ -30,18 +30,32 @@ export default {
 </script>
 
 <style scoped>
-  div.content {
-    margin-top: -10px;
-    margin-bottom: -10px;
-    padding: 50px 20px 250px 100px;
-    background-color: white;
-    font-size: 18px;
-    border-radius: 10px;
+  @media only screen and (min-width: 1200px) {
+    div.content {
+      margin-top: -10px;
+      margin-bottom: -10px;
+      padding: 50px 20px 250px 100px;
+      background-color: white;
+      font-size: 18px;
+      border-radius: 10px;
+    }
   }
-  .cover-image {
-    text-align: center;
-    margin-left: -40px;
-    width: 900px;
+  @media only screen and (max-width: 1199px) {
+    div.content {
+      margin-top: -10px;
+      margin-bottom: -10px;
+      padding: 50px 20px 100px 10px;
+      background-color: white;
+      font-size: 18px;
+      border-radius: 10px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .cover-image {
+      text-align: center;
+      margin-left: -40px;
+      width: 900px;
+    }
   }
   strong {
     font-weight: bold;
@@ -54,7 +68,9 @@ export default {
     text-transform: uppercase;
     margin-bottom: 20px;
   }
-  .post {
-    margin-right: 90px;
+  @media only screen and (min-width: 1200px) {
+    .post {
+      margin-right: 90px;
+    }
   }
 </style>
