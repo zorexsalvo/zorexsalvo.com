@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url><loc>https://zorexsalvo.com</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/extras</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/self-hosted-git-server-with-gogs</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/pet-project-how-to-stay-motivated</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/vue-js-i-choose-you</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/my-journey-to-the-vast-world-of-text-editors</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/creating-blog-site-with-jekyll-and-vue</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/asynchronous-task-with-celery-and-rabbitmq</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/adding-proxy-to-your-docker-service</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/aws-summit-manila-2017</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/zorex-salvo-junior-developer</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/being-a-volunteer-in-a-tech-conference</loc><priority>0.5</priority></url>
-    <url><loc>https://zorexsalvo.com/#/blog/extras</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/extras</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog/self-hosted-git-server-with-gogs</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog/pet-project-how-to-stay-motivated</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog/vue-js-i-choose-you</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog/my-journey-to-the-vast-world-of-text-editors</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog/creating-blog-site-with-jekyll-and-vue</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog/asynchronous-task-with-celery-and-rabbitmq</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog/adding-proxy-to-your-docker-service</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog/aws-summit-manila-2017</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog/zorex-salvo-junior-developer</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/blog/being-a-volunteer-in-a-tech-conference</loc><priority>0.5</priority></url>
+    <url><loc>https://zorexsalvo.com/extras</loc><priority>0.5</priority></url>
 </urlset>
