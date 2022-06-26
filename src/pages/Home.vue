@@ -27,15 +27,15 @@
                v-for="post in recentPosts"
                :key="post.id">
             <article class="tile is-child notification">
-              <p class="title is-size-5 has-text-centered has-text-left-tablet">
-              <router-link class="router-title"
-                           :to="{ name: 'Page', params: { slug: post.slug }}">
-                {{ post.title }}
-              </router-link>
-              </p>
-              <figure class="image is-4by3">
-                <img class="cover" :src="post.cover_image">
-              </figure>
+              <span>
+                  {{ formatDate(post._createdAt) }}
+              </span>
+              <div class="title is-size-5 has-text-centered has-text-left-tablet">
+                <router-link class="router-title"
+                            :to="{ name: 'Page', params: { slug: post.slug.current }}">
+                  {{ post.title }}
+                </router-link>
+              </div>
             </article>
           </div>
 
@@ -47,7 +47,14 @@
 </template>
 
 <script>
+import moment from 'moment';
+
 export default {
+  methods: {
+    formatDate(date) {
+      return moment(date).format('MMMM  DD, YYYY');
+    },
+  },
   computed: {
     recentPosts() {
       const posts = this.$store.getters.allPosts;

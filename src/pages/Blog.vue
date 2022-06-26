@@ -10,11 +10,11 @@
             <span class="tag is-info is-medium">{{ getYear(post.date_created) }}</span>
         </header>
 
-        <div class="timeline-item" :key="post.slug">
+        <div class="timeline-item" :key="post.slug.current">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <p class="heading">{{ formatDate(post.date_created) }}</p>
-            <router-link :to="{ name: 'Page', params: { slug: post.slug } }">
+            <router-link :to="{ name: 'Page', params: { slug: post.slug.current } }">
                 {{ post.title }}
             </router-link>
           </div>

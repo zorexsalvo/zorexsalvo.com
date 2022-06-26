@@ -1,10 +1,10 @@
 <template>
   <div class="content">
     <h1 class="title is-size-4"><strong>{{ post.title }}</strong></h1>
-    <h2 class="subtitle is-size-5">{{ formatDate(post.date_created) }}</h2>
-    <img class="cover-image" :src="post.cover_image">
-    <br><br>
-    <div class="post" v-html="post.content"></div>
+    <h2 class="subtitle is-size-5">{{ formatDate(post._createdAt) }}</h2>
+    <div class="post">
+      {{ post.content }}
+    </div>
 
   </div>
 </template>
