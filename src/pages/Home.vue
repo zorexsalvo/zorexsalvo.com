@@ -27,9 +27,9 @@
                v-for="post in recentPosts"
                :key="post.id">
             <article class="tile is-child notification">
-              <span>
+              <div class="has-text-centered has-text-left-tablet">
                   {{ formatDate(post._createdAt) }}
-              </span>
+              </div>
               <div class="title is-size-5 has-text-centered has-text-left-tablet">
                 <router-link class="router-title"
                             :to="{ name: 'Page', params: { slug: post.slug.current }}">
