@@ -4,16 +4,16 @@
     <div class="timeline is-centered">
       <template v-for="(post, index) in posts">
         <header class="timeline-header"
-                v-if="(index > 0 && getYear(posts[index].date_created) !=
-                       getYear(posts[index-1].date_created))"
+                v-if="(index > 0 && getYear(posts[index]._createdAt) !=
+                       getYear(posts[index-1]._createdAt))"
                 :key="post.id">
-            <span class="tag is-info is-medium">{{ getYear(post.date_created) }}</span>
+            <span class="tag is-info is-medium">{{ getYear(post._createdAt) }}</span>
         </header>
 
         <div class="timeline-item" :key="post.slug.current">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
-            <p class="heading">{{ formatDate(post.date_created) }}</p>
+            <p class="heading">{{ formatDate(post._createdAt) }}</p>
             <router-link :to="{ name: 'Page', params: { slug: post.slug.current } }">
                 {{ post.title }}
             </router-link>
