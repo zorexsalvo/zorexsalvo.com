@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <br>
     <div class="timeline is-centered">
       <template v-for="(post, index) in posts">
@@ -51,5 +51,9 @@ export default {
 <style scoped>
 .timeline {
   font-size: 16px !important;
+}
+
+.body {
+  min-height: 80vh;
 }
 </style>

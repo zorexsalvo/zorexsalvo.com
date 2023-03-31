@@ -73,4 +73,7 @@ export default {
       margin-right: 90px;
     }
   }
+  .content {
+    min-height: 80vh;
+  }
 </style>

@@ -24,10 +24,6 @@
                        class="navbar-item">
             Archive
           </router-link>
-          <router-link to="extras"
-                       class="navbar-item">
-            Extras
-          </router-link>
         </div>
 
         <div class="navbar-end">

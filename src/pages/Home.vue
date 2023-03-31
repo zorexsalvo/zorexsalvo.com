@@ -1,13 +1,8 @@
 <template>
   <div>
     <br>
-    <div class="columns">
-      <div class="column">
-        <figure class="image is-3by2">
-            <img src="https://raw.githubusercontent.com/zorexsalvo/zorexsalvo.com/master/img/zorexsalvo.jpeg">
-        </figure>
-      </div>
-      <div class="column summary">
+    <div class="columns header">
+      <div class="column is-three-fifths is-offset-one-quarter summary">
         <p class="is-size-5 intro">
         I code in Python/Django/Flask and lately I've been doing javascript also. I'm not a
         design-guy so I'm usually assigned to do backend stuff.<br/><br/>I'm in continuous
@@ -93,4 +88,10 @@ article {
     margin-left: 8px;
   }
 }
+
+.header {
+  min-height: 55vh;
+  align-items: center;
+}
+
 </style>
