@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <h1 class="title is-size-4"><strong>{{ post.title }}</strong></h1>
-    <h2 class="subtitle is-size-5">{{ formatDate(post._createdAt) }}</h2>
+    <h2 class="subtitle is-size-5">{{ formatDate(post.date) }}</h2>
     <div class="post">
       {{ post.content }}
     </div>
